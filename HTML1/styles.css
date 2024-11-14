@@ -1,0 +1,87 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/* Hero */
+#hero {
+    text-align: center;
+    padding: 50px;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Secciones de Productos */
+.categoria {
+    padding: 40px;
+    background: #ecf0f1;
+    text-align: center;
+}
+
+.producto {
+    margin: 10px;
+}
+
+button {
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Formulario de Contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+}
+
+#respuesta {
+    margin-top: 20px;
+    color: #27ae60;
+}
+
+/* Footer */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
